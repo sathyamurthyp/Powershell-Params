@@ -1,0 +1,1 @@
+powershell.exe -NonInteractive -ExecutionPolicy ByPass "$ErrorActionPreference = 'Stop'; Set-PsDebug -Strict; .\step2.ps1"  
