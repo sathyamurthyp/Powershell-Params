@@ -1,1 +1,1 @@
-echo Hello${params.name}
+echo Hello${env.name}
