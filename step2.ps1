@@ -1,1 +1,1 @@
-echo Hello$Name
+echo Hello${params.name}
