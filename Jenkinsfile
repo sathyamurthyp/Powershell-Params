@@ -13,6 +13,6 @@ pipeline {
     }
   }
   environment {
-    name = 'Sathya'
+    name = 'Sathyam'
   }
 }
