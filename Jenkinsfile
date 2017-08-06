@@ -11,6 +11,11 @@ pipeline {
         bat '2.bat'
       }
     }
+    stage('') {
+      steps {
+        powershell '1.ps'
+      }
+    }
   }
   environment {
     name = 'Sathya'
