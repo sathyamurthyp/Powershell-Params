@@ -6,5 +6,10 @@ pipeline {
         bat '1.bat'
       }
     }
+    stage('Step2') {
+      steps {
+        bat '2.bat'
+      }
+    }
   }
 }
